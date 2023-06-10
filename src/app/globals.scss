@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$break-point-laptop: 1024px;
+$break-point-tablet: 768px;
+$break-point-mobile: 360px;
+
+* {
+	line-height: 2 !important;
+	font-feature-settings: "palt" !important;
+}
+
+video {
+	max-width: initial !important;
+}
+
+canvas {
+	z-index: -20 !important;
+}
