@@ -23,7 +23,7 @@ const motionForce = (x, y) => {
 export const ParticleImageComponent = ({ width, height, isFaded }) => {
 	const imgHeight = 0.8 * height; // 80vh
 	const imgWidth = imgHeight / 1.43; // keeping aspect ratio 1:1.43
-	let scaleFactor = (0.9 * height) / 1000; // avatar size
+	let scaleFactor = (0.6 * height) / 1000; // avatar size
 
 	return (
 		<motion.div
